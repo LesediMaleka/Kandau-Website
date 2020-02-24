@@ -1,6 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Poppins';
+    background-color: #ffffff;
 }
+/* this is for the first div */
 .MainHeading{
     color: #4C95FC;
+    margin: 10px;
+    padding: 10px;
+    font-size: 40px;
+}
+.MainPara{
+    color: #000;
+    text-align: justify;
+    word-break: break-all;
+    margin: 10px;
+    padding: 10px;
+    line-height: 18px;  
+    font-size: 19.2px;
+}
+/* this is the color change of the Kandau.com link */
+.KandauLink{
+    color: #4C95FC; 
+    text-decoration: underline;
+}
+/* the blue div with numbers and descriptive text */
+.figures{
+    background-color: #4C95FC;
+    color: #ffffff;
+    padding-top: 25px;
+}
+.figuresPara{
+    position: relative;
+    bottom: 3vw;
+    word-break: break-all;
+    letter-spacing: 0.2px;
+    text-align: center;
+    font-size: 16px;
+}
+.figuresHeading{
+    font-weight: 700;
+    text-align: center;
+    font-size: 33.6px;
+}
+/* heading "what our customers say" section  */
+.CostumersSayHeading{
+    color: #4C95FC;
+    text-align: center;
+    font-size: 28.8px;
+    margin: 10px;
+    padding: 10px;
+}
+.card{
+    /* background-color: aqua; */
+    border: 0px;
+}
+/* paragraph "what our customers say" section  */
+.customersSayPara{
+    text-align: left;
+    word-break: break-all;
+    position: relative;
+    bottom: 3vw;
+    letter-spacing: 0.2px;
+    line-height: 16px;
+    font-size: 16px;
+    padding: -30px;
+    padding-top: 20px;
+}
+.CustomersSayImage{
+    position: relative;
+    top: 10vw;
+    border-radius: 50%;
+    padding-left: 10px;
+}
+.PartnersSayImage{
+    position: relative;
+    top: 10vw;
+    padding-left: 10px;
+}
+
+.ButtonMain{
+    position: relative;
+    top: 94.4%;
+    left: 6%;
+    border-radius: 50px;
+    width: 100px;
+    height: 25px;
+    background-color:#3282b8;
+    border: solid 1px #3282b8;
+}
+.ButtonText{
+    position: relative;
+    left: 0.5%;
+    font-weight: 500;
+    font-size: 13px;
+    color: #fff;
+    padding-top: 2px;
+    font-family: oswald;
+    text-transform: uppercase;
+    
 }
