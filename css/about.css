@@ -477,7 +477,7 @@ body, html{
     top: 82vh;  
 }
 .card{
-    /* background-color: aqua; */
+    background-color: rgba(0, 0, 0, 0);
     border: 0px;
 }
 /* paragraph layout of the whole about page*/
@@ -630,14 +630,18 @@ body, html{
     position: relative;
     bottom: 4vh;
 }
+.footer{
+    position: relative;
+    top: 250vw;
+}
 
 
 /* media quries */
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
-    /* navbar */
+@media only screen and (min-width: 1920px) {
+  
+    /* navbar*/
     .navbar__contents {
         padding-left: 11vw;
     
@@ -656,51 +660,55 @@ body, html{
     }
     /* this is for the first div */
     .MainHeading{
-        font-size: 55px;
+        font-size: 85px;
         text-align: center;
-        /* position: relative;
-        left: 8vw; */
+        position: relative;
+        bottom:1vh;
     }
     a {
         color: black;
     }
     .MainPara{
-        font-weight: 250;
+        font-weight: 200;
         text-align: center;
-        font-size: 25px;
-        line-height: 28px;  
+        font-size: 45px;
+        line-height: 50px;  
         margin-left: 30px;
         margin-right: 30px;
         padding: 90px;
         position: relative;
-        bottom: 12vh;
-        text-align: center;
+        bottom: 9vh;
+    }
+
+        /* the pages button design */
+    .PagesButton{
+        width: 20vw;
+        height: 10vh;
+        left: 40vw;
+        top: 25vh;
     }
      /* the blue div with numbers and descriptive text */
     .figures{
         position: relative;
-        bottom: 18vh;
-        height: 32vh;
+        bottom: 14vh;
+        height: 26vh;
     }
     /* the blue div with numbers and descriptive text */
     .figuresPara{
-        top: 4vh;
+        top: 7vh;
         font-size: 20px;
     }
     .figuresHeading{
         padding-top: 8px;
         font-size: 40px;
         position: relative;
-        top: 6vh;
+        top: 8vh;
     }
     /*  "What our customers say" section  */
     .customersSayDiv{
-        padding: 20px;
+        padding-right: 250px;
         position: relative;
-        bottom: 16vh;
-        margin-inline-end: 20px;
-        padding-left: 40px;
-       
+        bottom: 16vh; 
     }
     .PagessSayNames{
         top: 18vw;
@@ -715,7 +723,8 @@ body, html{
         font-size: 55px;
          z-index: 5;
          margin-bottom: 100px;
-       
+         left: 8.5vw;
+         font-size: 55px;  
     }
     .PagesSayPara{
         position: relative;
@@ -723,18 +732,244 @@ body, html{
         top: 18vw;
         
     }
+    .navbarHr{
+        bottom: 1vh;
+    }
     /* named the divs to avoid white spacing */
-/* customers section */
+        /* customers section */
     .ThembiDiv{
         position: relative;
-        bottom: 40vh;
+        bottom: 12vh;
     }
     .PauloDiv{
-        bottom: 14vh;
+        bottom: 2vh;
     }
     .JaineDiv{
-        bottom: 14vh;
+        bottom: 2vh;
     }
-
+    /* pro say section */
+    .ProHeading{
+        position: relative;
+        padding-left: 10%;
     }
+    .prosSayDiv{
+        position: relative;
+        top: 8vh;
+        display: inline-block;
+       
+    }
+    .DylanDiv{
+        position: relative;
+        right: 4vw;
+    }
+    .DylanImage{
+        height: 16vh;
+        width: 8.7vw;
+        position: relative;
+        left: 19vw;
+        top: 2vh;
+    }
+    .DylanName{
+        position: relative;
+        top: 18vh;
+        left: 10vw;
+    }
+    .ProsPara{
+        width: 180px;
+        font-weight: 300;
+    }
+    .DylanPara{
+        position: relative;
+        top: 18vh;
+       left: 8vw;
+    }
+    .MohammedImage{
+        height: 16vh;
+        width: 8.7vw;
+        position: relative;
+        left: 14vw;
+        top: 7vh;
+    }
+    .MohammedName{
+        position: relative;
+        top: 22vh;
+        left: 5vw;
+    }
+    .MohammedPara{
+        position: relative;
+        top: 22vh;
+       left: 5vw;
+    }
+    .JoeImage{
+        height: 16vh;
+        width: 8.7vw;
+        position: relative;
+        left: 18vw;
+        top: 15vh;
+    }
+    .JoePara{
+        position: relative;
+        top: 30vh;
+       left: 10vw;
+    }
+    .JoeName{
+        position: relative;
+        top: 30vh;
+        left: 8vw;
+    }
+    .PagesButtonText{
+        font-weight: 600;
+        font-size: 20px;
+    }
+    /* partners section */
+    .partnersSayDiv{
+        position: relative;
+        top: 35vh;
+    }
+    .PartnerHeading{
+        position: relative;
+        left: 3vw;
+    }
+    /* image layout of the partners sections */
+    .PartnersSayImage{
+        top: 5vw;
+        left: 15vw;
+        
+    }
+    .ygapPara{
+        position: relative;
+        top: 10vw;
+        left: -12vw;
+        padding-left: 30px;
+    }
+    .ygapName{
+        position: relative;
+        top: 18vh;
+        left: -10vw;
+    }
+    .LeroyMerlinName{
+        position: relative;
+        top: 22vh;
+        left: -8vw;
+    }
+        /* button layout of the partners sections */
+    .PartnerButton{
+        width: 20vw;
+        height: 10vh;
+        left: 40vw;
+        top: 60vh;
+    }
+    .LeroyMerlinPara{
+        position: relative;
+        top: 13vw;
+        left: -10vw;
+        padding-left: 30px;
+    }
+    /* teams section */
+    .teamSayDiv{
+        padding-right: 250px;
+        position: relative;
+        bottom: 16vh; 
+    }
+    .teamHeading{
+        position: relative;
+        left: 6vw;
+    }
+    .RoseyDiv{
+        position: relative;
+        left: 3vw;
+        top: -6vw;
+    }
+    .MichaelDiv{
+        position: relative;
+        left: 3vw;
+        top: -6vw;
+    }
+    .RoyzanneDiv{
+        position: relative;
+        left: 3vw;
+        top: -6vw;
+    } */
+    /* "The Kandau Founders" section  */
+    .FoundersHeading{
+        position: relative;
+        top: 5vw;
+        left: -7vw;
+    }
+        /* the founders section */
+    /* this for the founder's names in the founders section */
+    .FoundersNames{
+        margin-top: 2vw;
+        font-size: 40px;
+    }
+        /* the founder's images*/
+    .FounderImage{
+        width:20vw ;
+        height: 20vh;
+    }
+    .FoundersPara{
+        margin-top: 2vw;
+        width: 220px;
+        font-weight: 300;
+       position: relative;
+       margin-left: 21vw;
+    }
+        /* the founder's anchor tages replaced with buttons*/
+    .ButtonFounder{
+        margin-left: 21vw;
+    }
+    .ArjunImage{
+        position: relative;
+       left: 20vw; 
+    }
+    .ArjunName{
+        position: relative;
+        left: -20vw;
+    }
+    .SayoName{
+        position: relative;
+        left: -14vw;
+    }
+    .SayoDiv{
+        position: relative;
+        top: -63.6vh;
+        left: 23vw;
+    }
+    .SayoParaText{
+        position: relative;
+        top: -1vh;
+        left: 18vw; 
+    }
+    .SayoPara{
+        position: relative;
+        left: -2vw;    
+    }
+    .SayoButton{
+        position: relative;
+        left: -2vw;
+        z-index: 2;
+    }
+        /* the founder's anchor tages replaced with buttons*/
+    .FoundersBigButton{
+        width: 20vw;
+        height: 10vh;
+        left: -64vw;
+        top: 65vh;
+    }
+    /* footer section */
+    .footerStroke{
+        position: relative;
+        top: -42vh;
+    }
+    .FooterText{
+        font-size: 42px;
+        position: relative;
+        top: -10vh;
+    }
+    .footer{
+        position: relative;
+        top: 60vw;
+        bottom: 0;
+    }
+}
 
