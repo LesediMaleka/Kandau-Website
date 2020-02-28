@@ -622,7 +622,7 @@ body, html{
     height: 2vh;
     fill: #4C95FC;
     position: relative;
-    bottom: 4vh;
+    bottom: -128vh;
 }
 .FooterText{
     text-align: center;
@@ -632,7 +632,7 @@ body, html{
 }
 .footer{
     position: relative;
-    top: 250vw;
+    top: 240vw;
 }
 
 
@@ -959,7 +959,7 @@ body, html{
     /* footer section */
     .footerStroke{
         position: relative;
-        top: -42vh;
+        top: 82vh;
     }
     .FooterText{
         font-size: 42px;
@@ -972,4 +972,3 @@ body, html{
         bottom: 0;
     }
 }
-
